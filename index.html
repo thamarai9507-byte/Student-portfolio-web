@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Real-Time Messaging System</title>
+
+ <link rel="stylesheet" href="case3.css">
+</head>
+
+<body>
+
+ <h1>Real-Time Messaging System</h1>
+
+ <div class="status">
+ Status:
+ <span class="online-dot"></span>
+ <span>Online</span>
+ </div>
+
+ <div class="chat-container">
+
+ <!-- Messages will be displayed here -->
+ <div id="messages"></div>
+
+ </div>
+
+ <div class="message-box">
+
+ <input
+ type="text"
+ id="message"
+ placeholder="Type your message"
+ >
+
+ <button onclick="sendMessage()">Send</button>
+
+ </div>
+
+ <script src="case3.js"></script>
+
+</body>
+</html>
